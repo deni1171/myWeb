@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See more about me">
+    <link rel="icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/12e307a037.js" crossorigin="anonymous"></script>
+    <title>Deni's Website</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-inner">
+                <a class="navbar-brand">Deni Saputra</a>
+                <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a aria-current="page" href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#Academic" class="nav-link">Academic</a></li>
+                        <li class="nav-item"><a href="#slideShows" class="nav-link">Certifications</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#contact" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a href="" class="dropdown-item">WhatsApp</a></li>
+                                <li><a href="" class="dropdown-item">Facebook</a></li>
+                                <li><a href="" class="dropdown-item">Instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <img src="images/hero.png">
+        <div class="hero-inner">
+            <h1>Hi,<br> I'm Deni Saputra</h1>
+            <br>
+            <p>Welcome to My Website</p>
+        </div>
+    </div>
+    <h1 class="main-header">See more details about me</h1>
+    <hr>
+    <div id="slideShows">
+        <h1 class="header">Certifications</h1>
+        <div class="slideShows">
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                  <img src="/images/slides/Screenshot (118).png" alt="song">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                  <img src="/images/slides/Screenshot (119).png" alt="song">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                  <img src="/images/slides/Screenshot (120).png" alt="song">
+                </label>
+              </div>
+            </div>
+        </div>
+        <div class="slideShows2">
+            <form>
+                <input type="radio" name="fancy" autofocus value="slide1" id="slide1" />
+                <input type="radio" name="fancy" value="slide2" id="slide2" />
+                <input type="radio" name="fancy" value="slide3" id="slide3" />
+                <input type="radio" name="fancy" value="slide4" id="slide4" />			
+                <label for="slide1">
+                    <img src="/images/slides/Screenshot (118).png" alt="certificate">
+                </label>
+                <label for="slide2">
+                    <img src="/images/slides/Screenshot (119).png" alt="certificate">
+                </label>
+                <label for="slide3">
+                    <img src="/images/slides/Screenshot (120).png" alt="certificate">
+                </label>
+                <label for="slide4">
+                    <img src="/images/slides/Screenshot (121).png" alt="certificate">
+                </label>
+    
+                <div class="keys">Use left and right keys to navigate</div>
+            </form>
+        </div>
+        <div class="slideShow-more">
+            <button class="slideShow-more-button"><i class="fas fa-chevron-down fa-lg"></i></button>
+            <div class="slideShow-more-container">
+                <img src="/images/slides/Screenshot (118).png" alt="">
+                <img src="/images/slides/Screenshot (119).png" alt="">
+                <img src="/images/slides/Screenshot (120).png" alt="">
+                <img src="/images/slides/Screenshot (121).png" alt="">
+                <img src="/images/slides/Screenshot (122).png" alt="">
+                <img src="/images/slides/Screenshot (123).png" alt="">
+                <img src="/images/slides/Screenshot (124).png" alt="">
+                <img src="/images/slides/Screenshot (125).png" alt="">
+                <img src="/images/slides/Screenshot (126).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="Academic" id="Academic">
+        <h1 class="header">Academics</h1>
+        <div class="Academic-inner">
+            <div class="card">
+                <img src="/images/sekolah/sma.jpg">
+                <div>
+                    <h5>SMA Kebangsaan</h5>
+                    <p>Akreditasi: A</p>
+                    <p>Alamat: DESA PISANG, Pisang, Kec. Penengahan, Kab. Lampung Selatan Prov. Lampung</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/sekolah/smp.jpg">
+                <div>
+                    <h5>SMPN 7 Bandar Lampung</h5>
+                    <p>Akreditasi: A</p>
+                    <p>Alamat:  Jl. Sultan Badaruddin No.4, Gunung Agung, Kec. Langkapura, Kota Bandar Lampung Prov. Lampung</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/sekolah/sd.jpg">
+                <div class="academic-description">
+                    <h5>SDN 1 Susunan Baru</h5>
+                    <p>Akreditasi: B</p>
+                    <p>Alamat: Jl. Kepodang, Susunan Baru, Kec. Tanjung Karang Barat, Kota Bandar Lampung Prov. Lampung</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1 class="header">Keep in Touch</h1>
+        <div class="contact-inner">
+            <div class="contact-item"><a href="https://wa.me/6288219614617">
+                <i class="fab fa-whatsapp"></i>
+                <p>088219614617</p></a>
+            </div>
+            <div class="contact-item"><a href="https://web.facebook.com/profile.php?id=100008026398603">
+                <i class="fab fa-facebook"></i>
+                <p>Deni Saputra</p></a>
+            </div>
+            <div class="contact-item"><a href="https://www.instagram.com/denisaputra_vkv71/">
+                <i class="fab fa-instagram"></i>
+                <p>denisaputra_vkv71</p></a>
+            </div>
+            <div class="contact-item"><a href="mailto:denisaputa1171@gmail.com">
+                <i class="far fa-envelope"></i>
+                <p>denisaputra1171@gmail.com</p></a>
+            </div>
+            <div class="contact-item"><a href="https://telegram.me/deni1171">
+                <i class="fab fa-telegram-plane"></i>
+                <p>Deni Saputra</p></a>
+            </div>
+            <div class="contact-item"><a href="https://www.linkedin.com/in/deni-saputra-754a8a1b9">
+                <i class="fab fa-linkedin-in"></i>
+                <p>Deni Saputra</p></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyrights &copy; 2021 All Rights Reserved by Deni Saputra </p>
+    </footer>
+</body>
+</html>
