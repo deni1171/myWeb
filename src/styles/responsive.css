@@ -43,8 +43,10 @@
         border: none;
         cursor: pointer;
         display: flex;
-        padding: 0 5% 0 0;
-        justify-content: right;
+        padding: 0 5% 0 0
+    }
+    svg {
+        align-items: flex-end;
     }
     .line {
         fill: none;
@@ -85,7 +87,16 @@
         font-size: 40px;
     }
 
+/* slideShows 1*/
+    .slideShows {
+        display: none;
+    }
+
     /* slideshows 2*/
+    .slideShows2 {
+        overflow: hidden;
+    }
+    
     label {
         color: #fff;
         transition: transform 400ms ease-out;
@@ -153,7 +164,6 @@
         padding: 1rem;
         font-size: 3rem;
         height: 10rem;
-        vertical-align: middle;
         line-height: 10rem;
         top: 50%;
         transform: translate3d(0, -50%, 0);
@@ -208,6 +218,33 @@
 @media screen and (min-width: 1000px) {
     .navbar-collapse {
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+    }
+    .navbar-nav {
+        font-size: 24px;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .nav-item {
+        display: inline;
+        padding: 0 5px;
+    }
+
+    .nav-link {
+        font-size: 28px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .nav-item a:active, .nav-item a:hover {
+        border-bottom: 2px solid white;
     }
 
     .menu {
@@ -217,16 +254,28 @@
     header {
         background-color: #0C4271;
     }
+
+    .hero-inner h1, .hero-inner p {
+        font-size: 60px;
+    }
+
+    .slideShows {
+        display: flex;
+    }
+
+    .slideShows2 {
+        display: none;
+    }
+
+    .Academic-inner {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact-item a {
+        font-size: 40px;
+    }
 }
 
-@media screen and (max-width: 1200px) {
-
-}
-
-@media screen and (max-width: 1440px) {
-    
-}
-
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 1280px) {
 
 }
