@@ -13,20 +13,42 @@
         padding: 0 10% 0 10%;
     }
 
+    .contact-inner {
+        grid-auto-rows: 1fr*6;
+    }
+
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     .main-header {
         font-size: 32px;
     }
     .hero-inner h1, .hero-inner p {
-        font-size: 26px;
+        font-size: large;
+    }
+
+    .Academic-inner {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .main-header {
+        font-size: large;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 651px) {
     .hero-inner h1, .hero-inner p {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    .contact-inner {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .Academic-inner {
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 12px;
     }
 }
 
@@ -81,10 +103,6 @@
         stroke-dasharray: 90 207;
         stroke-dashoffset: -134;
         stroke-width: 6;
-    }
-
-    .hero-inner h1, .hero-inner p {
-        font-size: 40px;
     }
 
 /* slideShows 1*/
@@ -197,9 +215,6 @@
 
 
     /* Academics */
-    .Academic-inner {
-        grid-template-rows: 1fr 1fr 1fr;
-    }
     .card {
         margin: 10px;
     }
