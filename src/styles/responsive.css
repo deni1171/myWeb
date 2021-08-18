@@ -34,6 +34,10 @@
     .main-header {
         font-size: large;
     }
+
+    .contact-item a p, .contact-item a i {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 651px) {
