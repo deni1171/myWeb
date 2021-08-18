@@ -29,6 +29,7 @@
 
     .Academic-inner {
         grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 2px
     }
 
     .main-header {
@@ -53,6 +54,7 @@
     .Academic-inner {
         grid-template-columns: 1fr 1fr 1fr;
         font-size: 12px;
+        grid-gap: 10px
     }
 }
 
