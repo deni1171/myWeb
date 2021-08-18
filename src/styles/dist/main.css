@@ -306,7 +306,14 @@ footer {
   text-align: center;
   width: 100%;
   min-height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: space-around;
 }
 footer p {
   margin: 0;
+  padding: 5px;
+  font-size: medium;
 }
