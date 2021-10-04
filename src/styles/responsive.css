@@ -71,6 +71,44 @@
     
     .navbar-collapse {
         display: none;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        background: #0A81AB;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar-inner .opened ~ .navbar-collapse {
+        display: inline;
+        animation: appear 1s none linear;
+    }
+
+    @keyframes appear {
+        0% {
+            transform: translateY(-35px) rotateX(90deg);
+        }
+        100% {
+            transform: translateY(0px) rotateX(0deg);
+        }
+    }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        list-style: none;
+    }
+
+    .nav-item a {
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-item a:hover {
+        text-decoration: underline;
     }
 
     .menu {
