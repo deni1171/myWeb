@@ -36,8 +36,6 @@ header nav {
 header nav .navbar-inner {
   padding: 0px;
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 header nav .navbar-inner .navbar-brand {
   text-shadow: 0px 0px 10px #ffffff;
@@ -98,7 +96,7 @@ header nav .navbar-inner .navbar-brand {
   min-height: auto;
   align-items: center;
   text-align: center;
-  background-color: #000000;
+  background-color: #0C4271;
 }
 .hero img {
   padding-bottom: 0;

@@ -39,10 +39,6 @@ header nav {
 header nav .navbar-inner {
   padding: 0px;
   margin: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
 }
 
 header nav .navbar-inner .navbar-brand {
@@ -117,7 +113,7 @@ header nav .navbar-inner .navbar-brand {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-color: #000000;
+  background-color: #0C4271;
 }
 
 .hero img {

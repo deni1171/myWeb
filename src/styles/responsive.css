@@ -60,6 +60,11 @@
 }
 
 @media screen and (max-width: 999px) {
+    .navbar-inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     .navbar-brand {
         text-align: center;
     }
@@ -238,6 +243,10 @@
 }
 
 @media screen and (min-width: 1000px) {
+    .navbar-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .navbar-collapse {
         display: flex;
         flex-direction: row;
